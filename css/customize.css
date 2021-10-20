@@ -1,0 +1,217 @@
+@charset "utf-8";
+
+body {
+    font-family: "Roboto", "Noto Sans KR", sans-serif;
+    color: #fff;
+    background: #272727;
+}
+
+a,a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+}
+
+#tnbWrap {
+    background: #1A1917;
+}
+
+.tnb {
+    width: 1245px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.tnb ul {
+    float: right;
+    margin-top: 14px;
+}
+
+.tnb ul li {
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.inner_nav {
+    width: 1245px;
+    height: 107px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+
+#nav {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    z-index: 3;
+}
+
+.gnb>li{
+    display: inline-block;
+    text-align: center
+}
+
+.gnb>li>a {
+    display: block;
+    width: 190px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.gnb>li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#carouselExampleControls {
+    background: url("../images/slideBG.png") center/cover no-repeat;
+}
+
+.carousel-inner img {
+    width: 1000px;
+    height: 411px;
+    margin: 0 auto;
+}
+
+article h3 {
+    font-size: 35px;
+    padding: 180px 0 140px 0;
+    text-align: center;
+}
+
+.card {
+    border: 2px solid #fff !important;
+    background-color: #272727;
+    overflow: hidden;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.card-text {
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+#program .card-group {
+    height: 880px;
+}
+
+#program .btn {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#notice .card-group {
+    height: 880px;
+}
+
+.card-body {
+    position: relative;
+    padding: 0;
+}
+
+.icon {
+    height: 212px;
+}
+
+#time, #map {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#time {
+    width: 500px;
+}
+
+.banner {
+    margin: 180px 0 0 0;
+    height: 519px;
+    background: url("../images/fbg.png") center/cover no-repeat;
+}
+
+.banner_text {
+    text-align: center;
+    padding-top: 153px;
+}
+
+.banner_text h4 {
+    font-size: 48px;
+}
+
+.banner_text p {
+    font-size: 28px;
+}
+
+#asideWrap {
+    margin-top: 200px;
+}
+
+#asideWrap .container {
+    position: relative;
+}
+
+#asideWrap .container .col-6 h6 {
+    font-size: 30px;
+}
+
+.notice_list {
+    font-size: 25px;
+}
+
+.sns_list {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.sns_list li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#footerWrap {
+    margin-top: 200px;
+    border-top: 1px solid #a3a3a3;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.icon {
+    text-align: center;
+}
+
+.small {
+    font-size: 20px;
+    color: #f5c3c3;
+}
+
+#pin img {
+    margin-top: 39px;
+}

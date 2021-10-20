@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- reset CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/customize.css">
+    <title>HANUL gym</title>
+</head>
+
+<body>
+    <h1 class="d-none">HANUL gym</h1>
+    <header>
+        <div id="tnbWrap">
+            <div class="tnb">
+                <ul>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">join</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="navWrap">
+            <div class="inner_nav">
+                <div id="logo">
+                    <a href="#"><img src="images/logo.png" alt="HANUL gym"></a>
+                </div>
+                <div id="nav">
+                    <ul class="gnb">
+                        <li><a href="#">체육관 소개</a></li>
+                        <li><a href="#">프로그램 안내</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">커뮤니티</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="comtainer">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                    <img src="images/slide1.png" class="d-block" alt="킥복싱">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="images/slide2.png" class="d-block" alt="주짓수">
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                    <img src="images/slide3.png" class="d-block" alt="mma">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <section id="main">
+        <h2 class="d-none">한울짐 메인</h2>
+        <article id="program">
+            <h3>프로그램</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="card-group gap-4">
+                        <div class="card col-4">
+                            <img src="images/pr-kick.png" class="card-img-top img-fluid" alt="킥복싱">
+                            <div class="card-body">
+                                <h5 class="card-title">킥복싱</h5>
+                                <p class="card-text">발차기와 주먹질에 기반한 격투 스포츠입니다.<br>
+                                    주먹과 발, 무릎 등을 사용하여 상대를 타격하는 입식 격투기 입니다.</p>
+                                <button type="button" class="btn btn-outline-light" id="kmore">더 알아보기</button>
+                            </div>
+                        </div>
+                        <div class="card col-4">
+                            <img src="images/pr-ju.png" class="card-img-top img-fluid" alt="주짓수">
+                            <div class="card-body">
+                                <h5 class="card-title">주짓수</h5>
+                                <p class="card-text">타격기, 관절기 등 폭넓은 적용성과 융합성을 자랑합니다.<br>
+                                    부드러움이 강함을 제압한다는 정신아래 수련되는 무술입니다.</p>
+                                <button type="button" class="btn btn-outline-light" id="jmore">더 알아보기</button>
+                            </div>
+                        </div>
+                        <div class="card col-4">
+                            <img src="images/pr-mma.png" class="card-img-top img-fluid" alt="mma">
+                            <div class="card-body">
+                                <h5 class="card-title">mma</h5>
+                                <p class="card-text">타격과 그라운드를 넘나들며 다양한 격투 기술을 사용하는 격투 스포츠입니다.
+                                    치명적인 공격 외에 거의 모든 기술을 사용할 수 있습니다.</p>
+                                <button type="button" class="btn btn-outline-light" id="mmore">더 알아보기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="ad">
+            <h3 class="d-none">베너</h3>
+            <div class="banner">
+                <div class="container">
+                    <div class="banner_text">
+                        <h4>“100세 시대, 이제부터 운동으로 시작”</h4>
+                        <p>최근의 변화 가운데 주목할 것은 100세 시대의 개막입니다.<br>
+                            얼마나 사느게 중요한 것이 아니고 어떻게 사는게 중요한 시대에<br>
+                            운동으로 하는 체력관리는 현대인의 필수 요소 입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="notice">
+            <h3>이용안내</h3>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="card-group gap-4">
+                            <div class="card col-6">
+                                <div class="icon"><img src="images/iconoir_gym.png" alt="운영안내"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title mt-5">운영시간</h5>
+                                    <p class="card-text text-center">평일 06:00-22:00<br>
+                                        토요일 06:00-18:00<br>
+                                        일요일 09:00-18:00</p>
+                                    <p class="card-text text-center mt-5">휴관일<br>
+                                        설, 추석 당일</p>
+                                    <p class="card-text text-center mt-5"><span class="small">※ 코로나 19로 인한<br>사회적 거리두기 단계별<br>
+                                        운영시간 변동이 있을 수 있습니다.</span></p>
+                                    <button type="button" class="btn btn-outline-light" id="time">프로그램 운영시간 자세히 보기</button>
+                                </div>
+                            </div>
+                            <div class="card clo-6">
+                                <div class="icon" id="pin"><img src="images/cil_location-pin.png" alt="오시는 길"></div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center mt-5">오시는 길</h5>
+                                    <p class="card-text text-center mt-5">광주광역시 서구 경열로 3<br>
+                                        062)362-7797</p>
+                                    <p class="card-text text-center  mt-5">버스<br>
+                                        서구청 하차 - 금호36, 봉선37</p>
+                                    <p class="card-text text-center mt-5">지하철<br>
+                                        농성역 1번, 7번 출구 - 도보 5분</p>
+                                    <button type="button" class="btn btn-outline-light" id="map">위치 자세히 보기</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <aside>
+        <div id="asideWrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h6>체육관 소식</h6>
+                        <ul class="notice_list">
+                            <li><a href="#">· 코로나19 바이러스 감염예방 소독 방역 실시</a></li>
+                            <li><a href="#">· 사회적 거리두가 강화로 인한 일부 시설<br>이용중단 안내</a></li>
+                            <li><a href="#">· 어린이 킥복싱 프로그램 시간 변경 안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3">
+                        <ul class="sns_list">
+                            <li><a href="#"><img src="images/ico_fb.png" alt="페이스북"></a></li>
+                            <li><a href="#"><img src="images/ico_instar.png" alt="인스타그램"></a></li>
+                            <li><a href="#"><img src="images/ico_you.png" alt="유튜브"></a></li>
+                            <li><a href="#"><img src="images/ico_twi.png" alt="트위터"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div id="footerWrap">
+            <div class="container">
+                <p>HANUL gym</p>
+                <p>copyright&copy; HANUL gym. all rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
